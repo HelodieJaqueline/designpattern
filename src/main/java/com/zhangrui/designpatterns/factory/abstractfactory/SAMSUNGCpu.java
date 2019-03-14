@@ -11,4 +11,8 @@ public class SAMSUNGCpu implements Cpu{
 	public void calculate() {
 		System.out.println("SAMSUNGCpu calculate!");
 	}
+
+	@Override public void control() {
+		System.out.println("SAMSUNGCpu calculate!");
+	}
 }

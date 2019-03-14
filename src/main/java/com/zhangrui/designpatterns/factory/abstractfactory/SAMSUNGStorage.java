@@ -10,4 +10,8 @@ public class SAMSUNGStorage implements Storage {
 	@Override public void store() {
 		System.out.println("SAMSUNGStorage store!");
 	}
+
+	@Override public void load() {
+		System.out.println("SAMSUNGStorage load!");
+	}
 }

@@ -8,4 +8,7 @@ package com.zhangrui.designpatterns.factory.abstractfactory;
  */
 public interface Cpu {
 	void calculate();
+
+	void control();
+
 }

@@ -8,6 +8,5 @@ package com.zhangrui.designpatterns.factory.abstractfactory;
  */
 public class Test {
 	public static void main(String[] args) {
-
 	}
 }

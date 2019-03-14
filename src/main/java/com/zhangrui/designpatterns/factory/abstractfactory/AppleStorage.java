@@ -10,4 +10,9 @@ public class AppleStorage implements Storage {
 	@Override public void store() {
 		System.out.println("AppleStorage store!");
 	}
+
+	@Override
+	public void load() {
+		System.out.println("AppleStorage load!");
+	}
 }

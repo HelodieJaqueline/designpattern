@@ -11,4 +11,8 @@ public class AppleCpu implements Cpu{
 	public void calculate() {
 		System.out.println("AppleCpu calculate!");
 	}
+
+	@Override public void control() {
+		System.out.println("AppleCpu control!");
+	}
 }

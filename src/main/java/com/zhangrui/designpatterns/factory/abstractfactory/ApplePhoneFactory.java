@@ -6,7 +6,7 @@ package com.zhangrui.designpatterns.factory.abstractfactory;
  * @Description:
  * @Modified: By
  */
-public class ApplePhoneFactory extends PhoneFactory{
+public class ApplePhoneFactory implements PhoneFactory{
 	@Override
 	public Cpu createCpu() {
 		return new AppleCpu();

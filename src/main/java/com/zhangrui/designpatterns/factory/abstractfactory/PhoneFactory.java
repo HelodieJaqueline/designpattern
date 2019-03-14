@@ -6,8 +6,8 @@ package com.zhangrui.designpatterns.factory.abstractfactory;
  * @Description:
  * @Modified: By
  */
-public abstract class PhoneFactory {
-	abstract Cpu createCpu();
+public interface PhoneFactory {
+	Cpu createCpu();
 
-	abstract Storage createStorge();
+	Storage createStorge();
 }

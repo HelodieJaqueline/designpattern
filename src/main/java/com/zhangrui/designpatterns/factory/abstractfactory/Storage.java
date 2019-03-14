@@ -8,4 +8,6 @@ package com.zhangrui.designpatterns.factory.abstractfactory;
  */
 public interface Storage {
 	void store();
+
+	void load();
 }
