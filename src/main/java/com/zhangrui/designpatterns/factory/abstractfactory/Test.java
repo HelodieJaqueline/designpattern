@@ -8,5 +8,12 @@ package com.zhangrui.designpatterns.factory.abstractfactory;
  */
 public class Test {
 	public static void main(String[] args) {
+        PhoneFactory factory = new ApplePhoneFactory();
+        Cpu cpu = factory.createCpu();
+        Storage storage = factory.createStorge();
+        cpu.calculate();
+        cpu.control();
+        storage.load();
+        storage.store();
 	}
 }
