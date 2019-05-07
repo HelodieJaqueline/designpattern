@@ -7,6 +7,13 @@
     <groupId>com.zr.learning.designpatterns</groupId>
     <artifactId>zhangrui-designpatterns</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.4</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>
