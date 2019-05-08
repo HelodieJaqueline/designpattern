@@ -1,0 +1,1 @@
+虚拟机限制了 The resulting proxy class must not exceed any limits imposed * on classes by the virtual machine. For example, the VM may limit * the number of interfaces that a class may implement to 65535; in * that case, the size of the {@code interfaces} array must not * exceed 65535.
