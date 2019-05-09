@@ -4,10 +4,6 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.support.WebApplicationObjectSupport;
 
-/**
- * @author XuSemon
- *
- */
 @Component
 public class SpringBeanProxy extends WebApplicationObjectSupport {
 
