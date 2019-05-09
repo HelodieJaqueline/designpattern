@@ -1,6 +1,5 @@
 package com.zhangrui.designpatterns.strategy;
 
-import com.zhangrui.domain.request.OpenRegisterParam;
 import org.springframework.stereotype.Service;
 
 /**
